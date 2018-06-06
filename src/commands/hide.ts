@@ -23,6 +23,6 @@ export default class Hide extends Command {
     const {args, flags} = this.parse(Hide)
 
     this.log(`Flags: ${flags.password} ${flags.file}
-    Args: ${args.password} ${args.file}. Encode file`)
+    Args: ${args.password} ${args.file}`)
   }
 }

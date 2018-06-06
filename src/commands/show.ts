@@ -25,6 +25,6 @@ export default class Show extends Command {
     const {args, flags} = this.parse(Show)
 
     this.log(`Flags: ${flags.password} ${flags.file}
-    Args: ${args.password} ${args.file}`)
+    Args: ${args.password} ${args.file}. Encode file`)
   }
 }
